@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+body p {
+    color: dimgray;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -13,6 +17,7 @@ h1 {
 
 .flex-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -36,4 +41,17 @@ h1 {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-area img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.dream-area {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 110px;
 }
